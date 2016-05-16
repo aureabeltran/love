@@ -1,0 +1,54 @@
+/*home*/
+.bg-image{
+	background-image: url(../images/slider.jpg);
+	background-size: cover;
+	height: 500px;
+}
+section h2 span{
+	color: $color2;
+	font-family: Oswald;
+}
+.features{
+	color: $color2;
+	.tools{
+		padding: 5px;
+		h2{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		img{
+			float: left;
+			margin: 5px 5px 5px 0px;
+			width: 15%;
+		}
+	}
+	button{
+		background-color: $color2;
+		color: white;
+		border: 1px solid $color2;
+		padding: 5px;
+		&:hover{
+			background-color: darken($color2, 15%);
+		}
+	}
+}
+.images{
+	img{
+		width: 100%;
+	}
+	.border{
+		padding: 10px;
+		border-left: 1px solid gray;
+		border-right: 1px solid gray;
+		border-bottom: 1px solid gray;
+		h3{
+			font-family: Oswald;
+			color: $main-gray;
+		}
+		h4{
+			color: $main-color;
+			font-family: Oswald;
+		}
+	}
+}
+/**home**/

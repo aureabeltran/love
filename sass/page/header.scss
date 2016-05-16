@@ -1,0 +1,26 @@
+header{
+	padding: 2%;
+	h1{
+		color: $main-color;
+		font-weight: bold;
+		font-size: 40px;
+		span{
+			color: lighten($main-color, 40%);
+		}
+	}
+	ul{
+		float: right;
+		li{
+			display: inline-block;
+			padding: 20px;
+			font-size: 20px;
+			font-weight: bolder;
+			a{
+				color: #9C9C9C;
+				&:hover{
+					color: $main-color;
+				}
+			}
+		}
+	}
+}

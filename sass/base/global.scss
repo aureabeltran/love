@@ -1,0 +1,29 @@
+$main-color: #CD2E24;
+$color2: #FF8F58;
+$main-gray: #9C9C9C;
+*{
+	font-family: Open Sans;
+}
+h1{
+	family-font: Oswald;
+}
+a{
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+li{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+@font-face{
+	font-family: "myfonts";
+	src: url("../../font/bebas__-webfont.eot");
+	src: url("../../font/bebas___-webfont.ttf");
+}
+section{
+	padding: 2% 0% 2% 0%;
+}
