@@ -19,11 +19,17 @@ li{
 img{
 	max-width: 100%;
 }
-@font-face{
-	font-family: "myfonts";
-	src: url("../../font/bebas__-webfont.eot");
-	src: url("../../font/bebas___-webfont.ttf");
-}
 section{
 	padding: 2% 0% 2% 0%;
+}
+h2{
+	font-family: Oswald;
+}
+//*linea*//
+.line{
+	height: 50px;
+	max-width: 100%;
+	background-color: $color2;
+	color: white;
+	font-weight: bold;
 }

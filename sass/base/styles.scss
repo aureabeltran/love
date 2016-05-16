@@ -1,9 +1,4 @@
 /*home*/
-.bg-image{
-	background-image: url(../images/slider.jpg);
-	background-size: cover;
-	height: 500px;
-}
 section h2 span{
 	color: $color2;
 	font-family: Oswald;
@@ -51,4 +46,52 @@ section h2 span{
 		}
 	}
 }
-/**home**/
+.dashed{
+		h2{
+			img{
+				height: 20px !important;
+				width: 80% !important;
+				float: right;
+			}
+		}
+}
+/**fin home**/
+/**about us**/
+.aboutus{
+	img{
+		width: 100%;
+		margin:  10px 10px 10px 0px;
+	}
+	h3{
+		color: $color2;
+		font-family: Oswald;
+	}
+	.border-left{
+		border-left: 5px solid $color2;
+		color: $color2;
+		padding-left: 20px;
+		margin: 20px 0px 20px 20px;
+	}
+	.dashed{
+		h3{
+			img{
+				height: 20px !important;
+				width: 60% !important;
+				float: right;
+			}
+		}
+		ul{
+			padding: 0%;
+			li{
+				font-weight: bold;
+			}
+		}
+	}
+	.gallery{
+		img{
+			margin: 0% 0% 5px 0%;
+			border: 1px solid $main-color;
+		}
+	}
+}
+//**fin about us**//
