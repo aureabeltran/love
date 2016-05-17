@@ -17,6 +17,9 @@ section h2 span{
 			width: 15%;
 		}
 	}
+	p{
+		margin: 10px 0px 10px 0px;
+	}
 	button{
 		background-color: $color2;
 		color: white;
@@ -98,6 +101,45 @@ section h2 span{
 			&:hover{
 				background-color: darken($color2, 20%);
 			}
+		}
+	}
+}
+//**PORTFOLIO**//
+.portfolio{
+	img{
+		width: 100%;
+	}
+	h3{
+		font-family: Oswald;
+	}
+	ul{
+		margin: -40px 0px 30px 10%;
+		li{
+			display: inline-block;
+			padding: 10px;
+			a{
+				font-family: Oswald;
+				color: $main-gray;
+				&:hover{
+					background-color: $color2;
+					color: white;
+					font-weight: bold;
+					padding: 10px;
+				}
+			}
+		}
+	}
+	.text-images{
+		border: 1px solid $main-gray;
+		margin: 5px 0px 20px 0px;
+		padding: 5px 0px 0px 5px;
+		h4{
+			font-family: Oswald;
+			color: $main-gray;
+		}
+		h5{
+			color: $color2;
+			font-family: Oswald;
 		}
 	}
 }

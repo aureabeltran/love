@@ -5875,6 +5875,8 @@ section h2 span {
       float: left;
       margin: 5px 5px 5px 0px;
       width: 15%; }
+  .features p {
+    margin: 10px 0px 10px 0px; }
   .features button {
     background-color: #FF8F58;
     color: white;
@@ -5935,6 +5937,34 @@ section h2 span {
     padding: 10px 15px 10px 15px; }
     .blog .buttons button:hover {
       background-color: #f14f00; }
+
+.portfolio img {
+  width: 100%; }
+.portfolio h3 {
+  font-family: Oswald; }
+.portfolio ul {
+  margin: -40px 0px 30px 10%; }
+  .portfolio ul li {
+    display: inline-block;
+    padding: 10px; }
+    .portfolio ul li a {
+      font-family: Oswald;
+      color: #9C9C9C; }
+      .portfolio ul li a:hover {
+        background-color: #FF8F58;
+        color: white;
+        font-weight: bold;
+        padding: 10px; }
+.portfolio .text-images {
+  border: 1px solid #9C9C9C;
+  margin: 5px 0px 20px 0px;
+  padding: 5px 0px 0px 5px; }
+  .portfolio .text-images h4 {
+    font-family: Oswald;
+    color: #9C9C9C; }
+  .portfolio .text-images h5 {
+    color: #FF8F58;
+    font-family: Oswald; }
 
 header {
   padding: 1%; }
