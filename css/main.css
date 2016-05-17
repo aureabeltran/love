@@ -5859,6 +5859,11 @@ h2 {
   margin: 0% 0% 5px 0%;
   border: 1px solid #CD2E24; }
 
+ul {
+  padding: 0%; }
+  ul li {
+    font-weight: bold; }
+
 /*home*/
 section h2 span {
   color: #FF8F58;
@@ -5943,7 +5948,7 @@ section h2 span {
 .portfolio h3 {
   font-family: Oswald; }
 .portfolio ul {
-  margin: -40px 0px 30px 10%; }
+  margin: -40px 0px 30px 13%; }
   .portfolio ul li {
     display: inline-block;
     padding: 10px; }
@@ -5965,6 +5970,47 @@ section h2 span {
   .portfolio .text-images h5 {
     color: #FF8F58;
     font-family: Oswald; }
+
+.contact iframe {
+  width: 100%;
+  margin-bottom: 20px; }
+.contact .forms input {
+  width: 70%;
+  height: 40px;
+  font-family: Oswald;
+  margin-bottom: 20px;
+  border: 2px solid #CD2E24;
+  padding-left: 5px;
+  color: #CD2E24; }
+  .contact .forms input:focus {
+    border: 2px solid #FF8F58;
+    font-weight: bold; }
+.contact .forms textarea {
+  color: #CD2E24;
+  font-family: Oswald;
+  border: 2px solid #CD2E24;
+  padding-left: 5px; }
+  .contact .forms textarea:focus {
+    border: 2px solid #FF8F58;
+    font-weight: bold;
+    color: #FF8F58; }
+.contact .forms button {
+  background-color: #FF8F58;
+  color: white;
+  width: 96%;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+  font-family: Oswald;
+  margin: 10px 0px 10px 0px; }
+  .contact .forms button:hover {
+    background-color: #f14f00;
+    color: white; }
+.contact *::-webkit-input-placeholder {
+  /* Google Chrome y Safari */
+  color: #CD2E24; }
+.contact h3 {
+  font-family: Oswald;
+  color: #FF8F58; }
 
 header {
   padding: 1%; }

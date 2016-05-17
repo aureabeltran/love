@@ -113,7 +113,7 @@ section h2 span{
 		font-family: Oswald;
 	}
 	ul{
-		margin: -40px 0px 30px 10%;
+		margin: -40px 0px 30px 13%;
 		li{
 			display: inline-block;
 			padding: 10px;
@@ -141,5 +141,59 @@ section h2 span{
 			color: $color2;
 			font-family: Oswald;
 		}
+	}
+}
+//**contact**/
+.contact{
+	iframe{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.forms{
+		input{
+			width: 70%;
+			height: 40px;
+			font-family: Oswald;
+			margin-bottom: 20px;
+			border: 2px solid $main-color;
+			padding-left: 5px;
+			color: $main-color;
+			&:focus{
+				border: 2px solid $color2;
+				font-weight: bold;
+			}
+		}
+		textarea{
+			color: $main-color;
+			font-family: Oswald;
+			border: 2px solid $main-color;
+			padding-left: 5px;
+			&:focus{
+				border: 2px solid $color2;
+				font-weight: bold;
+				color: $color2;
+			}
+		}
+		button{
+			background-color: $color2;
+			color: white;
+			width: 96%;
+			padding: 10px 0px 10px 0px;
+			font-weight: bold;
+			font-family: Oswald;
+			margin: 10px 0px 10px 0px;
+			&:hover{
+				background-color: darken($color2, 20%);
+				color: white;
+			}
+		}
+	}
+	*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: $main-color;
+}
+	h3{
+		font-family: Oswald;
+		color:$color2;
 	}
 }
