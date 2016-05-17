@@ -29,6 +29,9 @@ h2{
 	background-color: $color2;
 	color: white;
 	font-weight: bold;
+	h2{
+		margin-top: -1px;
+	}
 }
 .gallery{
 	img{

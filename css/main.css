@@ -5854,6 +5854,8 @@ h2 {
   background-color: #FF8F58;
   color: white;
   font-weight: bold; }
+  .line h2 {
+    margin-top: -1px; }
 
 .gallery img {
   margin: 0% 0% 5px 0%;
@@ -5971,6 +5973,9 @@ section h2 span {
     color: #FF8F58;
     font-family: Oswald; }
 
+.contact h5 {
+  color: #FF8F58;
+  font-family: oswald; }
 .contact iframe {
   width: 100%;
   margin-bottom: 20px; }
