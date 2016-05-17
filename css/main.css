@@ -1,4 +1,20 @@
 @charset "UTF-8";
+.dashed1 h2 img {
+  height: 20px !important;
+  width: 80%;
+  float: right; }
+
+.dashed2 h3 img {
+  height: 20px !important;
+  width: 58%;
+  float: right; }
+
+.dashed3 img {
+  height: 20px !important;
+  width: 100%;
+  float: right;
+  margin: 20px 0% 20px 0%; }
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -5839,6 +5855,10 @@ h2 {
   color: white;
   font-weight: bold; }
 
+.gallery img {
+  margin: 0% 0% 5px 0%;
+  border: 1px solid #CD2E24; }
+
 /*home*/
 section h2 span {
   color: #FF8F58;
@@ -5877,11 +5897,6 @@ section h2 span {
     color: #CD2E24;
     font-family: Oswald; }
 
-.dashed h2 img {
-  height: 20px !important;
-  width: 80% !important;
-  float: right; }
-
 /**fin home**/
 /**about us**/
 .aboutus img {
@@ -5895,17 +5910,31 @@ section h2 span {
   color: #FF8F58;
   padding-left: 20px;
   margin: 20px 0px 20px 20px; }
-.aboutus .dashed h3 img {
-  height: 20px !important;
-  width: 60% !important;
-  float: right; }
-.aboutus .dashed ul {
+.aboutus ul {
   padding: 0%; }
-  .aboutus .dashed ul li {
+  .aboutus ul li {
     font-weight: bold; }
-.aboutus .gallery img {
-  margin: 0% 0% 5px 0%;
-  border: 1px solid #CD2E24; }
+
+.blog h3 {
+  color: #FF8F58;
+  font-family: Oswald; }
+.blog h4 {
+  color: #FF8F58;
+  font-family: Oswald; }
+.blog .p-gray {
+  background-color: #e9e9e9;
+  padding: 25px; }
+  .blog .p-gray img {
+    float: left;
+    margin-top: -20px; }
+.blog .buttons {
+  margin-left: 10%; }
+  .blog .buttons button {
+    background-color: #FF8F58;
+    color: white;
+    padding: 10px 15px 10px 15px; }
+    .blog .buttons button:hover {
+      background-color: #f14f00; }
 
 header {
   padding: 1%; }

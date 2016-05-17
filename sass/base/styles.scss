@@ -46,15 +46,6 @@ section h2 span{
 		}
 	}
 }
-.dashed{
-		h2{
-			img{
-				height: 20px !important;
-				width: 80% !important;
-				float: right;
-			}
-		}
-}
 /**fin home**/
 /**about us**/
 .aboutus{
@@ -72,26 +63,41 @@ section h2 span{
 		padding-left: 20px;
 		margin: 20px 0px 20px 20px;
 	}
-	.dashed{
-		h3{
-			img{
-				height: 20px !important;
-				width: 60% !important;
-				float: right;
-			}
-		}
-		ul{
-			padding: 0%;
-			li{
-				font-weight: bold;
-			}
-		}
-	}
-	.gallery{
-		img{
-			margin: 0% 0% 5px 0%;
-			border: 1px solid $main-color;
+	ul{
+		padding: 0%;
+		li{
+			font-weight: bold;
 		}
 	}
 }
 //**fin about us**//
+//**Blog**//
+.blog{
+	h3{
+		color: $color2;
+		font-family: Oswald;
+	}
+	h4{
+		color: $color2;
+		font-family: Oswald;
+	}
+	.p-gray{
+		background-color: lighten($main-gray, 30%);
+		padding: 25px;
+		img{
+			float: left;
+			margin-top: -20px;
+		}
+	}
+	.buttons{
+		margin-left: 10%;
+		button{
+			background-color: $color2;
+			color: white;
+			padding: 10px 15px 10px 15px;
+			&:hover{
+				background-color: darken($color2, 20%);
+			}
+		}
+	}
+}

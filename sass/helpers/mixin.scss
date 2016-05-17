@@ -1,0 +1,27 @@
+@mixin ancho-img($width){
+	height: 20px !important;
+	width: $width;
+	float: right;
+}
+.dashed1{
+	h2{
+
+		img{
+			@include ancho-img(80%);
+		}
+	}
+}
+.dashed2{
+	h3{
+
+		img{
+			@include ancho-img(58%);
+		}
+	}
+}
+.dashed3{
+	img{
+		@include ancho-img(100%);
+		margin: 20px 0% 20px 0%;
+	}
+}
